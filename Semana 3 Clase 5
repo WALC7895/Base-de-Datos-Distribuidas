@@ -1,0 +1,27 @@
+Fragmentación Horizontal  
+
+Ventajas:  
+
+Reduce la cantidad de datos que cada nodo debe procesar.  
+
+Mejora el rendimiento de las consultas al acceder solo a los datos relevantes para cada sitio.  
+
+Facilita la paralelización de procesos y el mantenimiento de la base de datos.  
+
+Fragmentación Vertical  
+
+Ventajas:  
+
+Permite optimizar el acceso a datos cuando las aplicaciones requieren solo ciertos campos.  
+
+Mejora la seguridad al separar información sensible en fragmentos diferentes.  
+
+Facilita la gestión del ancho de banda, ya que se transfieren solo los datos necesarios.  
+
+Fragmentación Mixta (o Híbrida)  
+
+Ventajas:  
+
+Ofrece una mayor flexibilidad para adaptar la distribución de los datos a las necesidades específicas de las aplicaciones y usuarios.  
+
+Permite aprovechar las ventajas de ambos métodos, optimizando tanto el rendimiento como la seguridad. 
