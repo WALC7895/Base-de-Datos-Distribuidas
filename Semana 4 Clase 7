@@ -1,0 +1,17 @@
+Docker 
+
+¿Qué es docker? 
+
+Docker es un software de código abierto que permite virtualizar aplicaciones basadas en contenedores en Windows 11, ya sea en la nube o en equipos locales. 
+
+ 
+
+Docker: Plataforma que permite empaquetar aplicaciones junto con sus dependencias en contenedores ligeros y portables, facilitando la creación, despliegue y ejecución consistente de software en cualquier entorno. 
+
+Imagen Docker: Una plantilla que incluye la aplicación, librerías necesarias, y componentes del sistema operativo. 
+
+Contenedor Docker: Una instancia ejecutable basada en la imagen. Proporciona aislamiento y seguridad para cada aplicación. 
+
+Nodo BD (Base de Datos): Cada contenedor representa una instancia de una base de datos, formando un sistema distribuido. Docker facilita la creación y administración rápida de múltiples nodos de bases de datos (por ejemplo, nodos de MongoDB, PostgreSQL, MySQL, o Cassandra). 
+
+Red Docker: Permite que los contenedores se comuniquen internamente de manera segura y eficiente. 
