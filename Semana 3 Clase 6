@@ -1,0 +1,36 @@
+INSTANCIAS EN UNA BASE DE DATOS DISTRIBUIDAS 
+
+ 
+
+En un servidor Ubuntu como principal, al darles instancias (servidores virtuales) 
+
+Una instancia es el entorno de ejecución del motor de base de datos. Es decir, es el conjunto de procesos, memoria y archivos que permite que puedas crear, 
+consultar y administrar bases de datos. Una instancia en una base de datos es un entorno que gestiona bases de datos, archivos y memoria 
+
+
+️ Tipos de instancia 
+
+Tipo de instancia 
+
+Nombre al conectarse 
+
+Ejemplo 
+
+Default 
+
+Solo el nombre del servidor 
+
+localhost 
+
+Named 
+
+Se le da un nombre único 
+
+localhost\Sitio_A 
+
+ 
+
+Para comunicarse con el SQL se comunicara por el puerto 1433. 
+
+PRACTICA 
+
