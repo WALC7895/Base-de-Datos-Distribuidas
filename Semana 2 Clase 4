@@ -1,0 +1,65 @@
+CLASIFICACION DE BASE DE DATOS DISTRIBUIDAS 
+
+FRAGMENTADAS 
+
+Los datos de una base de datos distribuidas deberían estar fragmentadas 
+
+Fragmentación Horizontal: Divide los registros (Fila de datos organizados) por filas (se tomara en cuenta la fila que será transmitida) según condiciones específicas. 
+
+Otra clave para la fragmentación es que está basada en encontrar condiciones de selección. 
+
+Fragmentación Vertical: Divide los registros por columnas (manteniendo la clave primaria en cada fragmento para poder reconstruir la tabla original si es necesario) según el uso de los atributos 
+
+Basada en encontrar conjunto de atributos. 
+
+Fragmentación Mixta: Es una combinación de ambas fragmentaciones, tanto horizontal como vertical. Se usa cuando la BD es muy grande. 
+
+Cuando hay partes de la base de datos que deben estar en diferentes ubicaciones físicas por razones de seguridad o acceso.  
+
+REPLICADAS 
+
+Replicación completa: Cada nodo contiene un respaldo completo de los datos. 
+
+Replicación parcial: Algunos datos se respaldan dependiendo de las necesidades requeridas o específicas. 
+
+HIBRIDAS 
+  
+
+Combina la fragmentación y replicación según los requerimientos operativos y estratégicos. 
+
+Cuando se necesita optimizar el rendimiento y la organización de los datos 
+
+En bases de datos muy grandes y distribuidas, donde un solo tipo de fragmentación no es suficiente. 
+
+Cuando se quiere minimizar la redundancia y mejorar la eficiencia del acceso a datos. 
+
+Para sistemas donde diferentes usuarios o aplicaciones requieren diferentes subconjuntos de datos. 
+
+
+ SEGUN LA AUTONOMIA DEL NODO 
+
+Bases de datos federadas  
+
+Alta autonomía local, cada nodo mantiene control propio de sus datos.  
+
+Gestión descentralizada.  
+
+Bases de datos multidatabase  
+
+Colección de bases de datos independientes que cooperan mediante acuerdos explícitos.  
+
+Autonomía y heterogeneidad son características esenciales.  
+
+
+VENTAJAS DE UNA BDDD 
+
+Mayor disponibilidad y confiabilidad.  
+
+Escalabilidad eficiente.  
+
+Distribución de carga.  
+
+Flexibilidad y adaptación geográfica.  
+
+ 
+   UN ESCHEMA ES UN ARCHIVO PLANO 
