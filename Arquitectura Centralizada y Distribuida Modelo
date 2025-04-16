@@ -1,0 +1,51 @@
+Modelo de Base de Datos para Arquitectura Distribuida 
+
+Componentes principales: 
+
+Nodos Distribuidos: Varios nodos que contienen partes de la base de datos. 
+
+Red de Comunicación: Permite la comunicación entre los nodos distribuidos. 
+
+Características: 
+
+Distribución: Los datos se almacenan en múltiples nodos distribuidos geográficamente. 
+
+Acceso: Los clientes pueden acceder a los datos desde diferentes nodos. 
+
+Ventajas: 
+
+Tolerancia a Fallos: Menos propensos a fallas catastróficas porque no hay un solo punto de fallo. 
+
+Escalamiento: Puede escalar fácilmente agregando más nodos según sea necesario. 
+
+Desventajas: 
+
+Complejidad: Requiere una gestión y coordinación más complejas entre los nodos. 
+
+Consistencia: A veces puede haber problemas de consistencia debido a la distribución de datos. 
+
+Modelo de Base de Datos para Arquitectura Centralizada 
+
+Componentes principales: 
+
+Servidor Central: Un único servidor que almacena toda la base de datos. 
+
+Clientes: Accedan al servidor central para consultar o modificar los datos. 
+
+Características: 
+
+Centralización: Todos los datos se encuentran en un único lugar (el servidor central). 
+
+Acceso: Los clientes se comunican directamente con el servidor para realizar operaciones. 
+
+Ventajas: 
+
+Simplicidad: Fácil administración y mantenimiento de la base de datos. 
+
+Consistencia: Todos los clientes ven los mismos datos en todo momento. 
+
+Desventajas: 
+
+Punto Único de Fallo: Si el servidor central falla, toda la base de datos se vuelve inaccesible. 
+
+Escalamiento Limitado: Difícil de escalar conforme crece la cantidad de datos o usuarios. 
