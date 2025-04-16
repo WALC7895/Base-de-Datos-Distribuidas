@@ -1,0 +1,234 @@
+NSTALACION .NET 
+
+C# 
+
+SQL SERVER 
+
+VISUAL STUDIO community 
+
+Instalación SQL Server 
+
+Instalacion del cliente SSMS 
+
+Descargar SSMS: 
+
+ https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16 
+
+ 
+
+Conexion 
+
+Creacion base de datos pruebas 
+
+Productos 
+
+Persona 
+
+ 
+
+.NET 
+
+Plataforma de desarrollo open source para app web, moviles, etc 
+
+Bibliotecas 
+
+Lenguajes 
+
+Runtimes 
+
+HISTORIA 
+
+.net framework en el 2002 
+
+.NET CORE - 2016 
+
+.NET -2020  
+
+ASP. NET 
+
+ASP.NET CORE  
+
+SE UNIFIQUE  
+
+ 
+
+ 
+
+Que es el SSMS? 
+
+SQL Server Management Studio 
+
+SQL Server Management Studio 
+
+ 
+
+Entorno integrado 
+
+Para administrar cualquier infraestructura de SQL, desde SQL Server a Azure SQL Database 
+API  
+
+Application Programming Interface  
+
+Interfaz de programacion de aplicaciones  
+
+Objetivos: 
+
+Crear servicios como web, ecommerce,juego, entre otros  
+
+Cosumen los servicios: servicios empresariales y nosotros
+REST 
+
+Representational State Transfer (Transferecnia de estado representacional) 
+
+ 
+
+Uso de una interfz uniforme 
+
+Modelo cliente -servidor 
+
+Operaciones sin estado 
+
+Almacenamiento en cache 
+
+Sistemas de capaz (multimples capas de servidores) 
+
+Codigo bajo demanda (json) 
+Aplicacion cliente comunicacion con la base de datos 
+
+Contruir una api rest full  
+
+Que se encargar de la comunicacion de la app cliente y base de datos 
+
+Protoclo de web HTTP necesitamos metodos CRUD 
+
+ 
+
+C crear 
+
+R mostrar 
+
+U editar 
+
+D eleminiar 
+
+ 
+
+Probar una API con Postman sin necesidad de la app Cliente  
+
+METODO GET  
+
+URI identificador de Recursos uniforme 
+
+Peticion y devuelve respuesta la API (req,res) 
+
+Formato JSON                    
+
+Mostrar: 
+
+GET 
+
+ 
+Crear una API 
+ 
+
+Iniciamos Visual 
+"Swagger" se refiere a una herramienta popular para diseñar, construir, documentar y consumir servicios web RESTful. 
+Ayuda a describir la funcionalidad de la API de manera clara y fácil de entender, facilitando así su uso por parte de desarrolladores y clientes 
+
+Escalable  
+
+Probar el endpoint 
+
+Funcionalidad de la API antes de la implementacion 
+
+Documentacion interractiva 
+
+ 
+
+Laravell o Nodo se debe instalar los paquetes  
+
+ Introducción a las Bases de Datos Distribuidas 
+
+Definición: sistema que almacena datos en diferentes ubicaciones físicas, conectadas mediante redes. 
+
+Objetivos: confiabilidad, eficiencia, escalabilidad, accesibilidad y tolerancia a fallos. 
+2. Clasificación de Bases de Datos Distribuidas 
+
+Según la distribución de los datos: 
+
+Fragmentadas 
+
+Fragmentación horizontal: divide registros por filas según condiciones específicas. 
+
+Fragmentación vertical: divide registros por columnas según el uso de los atributos. 
+
+Fragmentación mixta: combinación de fragmentación horizontal y vertical. 
+
+Replicadas 
+
+Replicación completa: cada nodo posee una copia completa de los datos. 
+
+Replicación parcial: ciertos datos se replican según necesidades específicas. 
+
+Híbridas 
+
+Combina fragmentación y replicación, según requerimientos operativos y estratégicos. 
+3. Según la Homogeneidad del Sistema 
+
+Homogéneas 
+
+Todos los nodos ejecutan el mismo tipo de software de gestión de base de datos. 
+
+Ejemplos: MySQL distribuido, MongoDB Sharded Cluster. 
+
+Heterogéneas 
+
+Nodos con diferentes sistemas de gestión de base de datos que interactúan mediante estándares comunes. 
+
+Ejemplos: Oracle Gateway, SQL Server Integration Services (SSIS) 
+
+4. Según la Autonomía del Nodo 
+
+Bases de datos federadas 
+
+Alta autonomía local, cada nodo mantiene control propio de sus datos. 
+
+Gestión descentralizada. 
+
+Bases de datos multidatabase 
+
+Colección de bases de datos independientes que cooperan mediante acuerdos explícitos. 
+5. Ventajas de Bases de Datos Distribuidas 
+
+Mayor disponibilidad y confiabilidad. 
+
+Escalabilidad eficiente. 
+
+Distribución de carga. 
+
+Flexibilidad y adaptación geográfica. 
+6. Desafíos de las Bases de Datos Distribuidas 
+
+Complejidad administrativa. 
+
+Seguridad y coherencia de datos. 
+
+Gestión eficiente de transacciones distribuidas. 
+
+Problemas asociados al rendimiento por la latencia en redes. 
+7. Aplicaciones típicas 
+
+Comercio electrónico global.//AMAZON 
+
+Sistemas financieros multinacionales.//PAYPAL 
+
+Aplicaciones de big data.GITHUB//SOOME//AZURE 
+
+Servicios en la nube.//AWS//AZURE//ONEDRIVE/GOOGLE 
+8. Conclusión 
+
+Las bases de datos distribuidas ofrecen ventajas importantes en escenarios modernos, aunque implican complejidades y desafíos técnicos relevantes. 
+
+Seleccionar el tipo adecuado depende de las necesidades específicas y estratégicas de cada organización. 
+
+Autonomía y heterogeneidad son características esenciales. 
