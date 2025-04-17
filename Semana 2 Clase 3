@@ -23,34 +23,3 @@ Desventajas
 Punto unico de fallo: Si el servidor central falla, toda la base de datos se vuelve inaccesible. 
 
 Escalamiento limitado. 
-
-
- 
-
-BASE DE DATOS FISTRIBUIDAY MODELOS DE ARQUITECTURA 
-
- 
-
-Componentes principales: 
-
-Nodos Distribuidos: Varios nodos que contienen partes de la base de datos. 
-
-Red de Comunicación: Permite la comunicación entre los nodos distribuidos. 
-
-Características: 
-
-Distribución: Los datos se almacenan en múltiples nodos distribuidos geográficamente. 
-
-Acceso: Los clientes pueden acceder a los datos desde diferentes nodos. 
-
-Ventajas: 
-
-Tolerancia a Fallos: Menos propensos a fallas catastróficas porque no hay un solo punto de fallo. 
-
-Escalamiento: Puede escalar fácilmente agregando más nodos según sea necesario. 
-
-Desventajas: 
-
-Complejidad: Requiere una gestión y coordinación más complejas entre los nodos. 
-
-Consistencia: A veces puede haber problemas de consistencia debido a la distribución de datos. 
